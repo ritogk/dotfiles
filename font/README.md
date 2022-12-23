@@ -4,7 +4,7 @@ windowsに以下２つのフォントをインストール
 - Meslo LG S Regular Nerd Font Complete.ttf
   
 windows terminal → 設定 → JSONファイルを開く  
-以下の項目を追加  
+ディストリビューションidとnameを書き換えて以下の項目を追加
 
 ```
 "profiles": 
@@ -18,11 +18,13 @@ windows terminal → 設定 → JSONファイルを開く
         "list": 
         [
           {
-            "colorScheme": "Brogrammer",
+            "colorScheme": "OhMyPosh",
             "guid": "{59b72ad2-09f7-55ec-af87-65d062af8472}",
             "hidden": false,
+            // テーマを適用させるディストリビューションに変える
             "name": "Ubuntu 20.04.5 LTS",
             "opacity": 90,
+	    // テーマを適用させるディストリビューションのソースに変える
             "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
             "font": {
               "face": "MesloLGS Nerd Font"
@@ -47,7 +49,7 @@ windows terminal → 設定 → JSONファイルを開く
             "cyan": "#1081D6",
             "foreground": "#D6DBE5",
             "green": "#2DC55E",
-            "name": "Brogrammer",
+            "name": "OhMyPosh",
             "purple": "#4E5AB7",
             "red": "#F81118",
             "selectionBackground": "#1F1F1F",

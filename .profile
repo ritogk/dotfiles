@@ -27,6 +27,6 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
-eval "$(oh-my-posh --init --shell bash --config ~/cli_theme.omp.json)"
+eval "$(oh-my-posh --init --shell bash --config ~/dotfiles/cli_theme.omp.json)"
